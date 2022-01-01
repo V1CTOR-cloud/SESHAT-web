@@ -37,7 +37,7 @@ let swiper = new Swiper(".books-slider", {
     },
 });
 
-let swiper = new Swiper(".featured-slider", {
+let swiper2 = new Swiper(".featured-slider", {
   spaceBetween: 10,
   loop:true,
   centeredSlides: true,
