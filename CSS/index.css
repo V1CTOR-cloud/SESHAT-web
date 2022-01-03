@@ -160,6 +160,10 @@ section {
     margin-bottom: 2rem;
 }
 
+#especial {
+    margin-bottom: 3rem;
+}
+
 .home .row .books-slider a:hover img {
     transform: scale(.9);
 }
@@ -322,26 +326,6 @@ section {
     font-size: 2.2rem;
     color: var(--black);
     padding-top: 1.rem;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-    border: var(--border-hover);
-    height: 4rem;
-    width: 4rem;
-    color: var(--black);
-    background: #fff;
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after {
-    font-size: 2rem;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-    background: var(--black);
-    color: #fff;
 }
 
 .newsletter {
