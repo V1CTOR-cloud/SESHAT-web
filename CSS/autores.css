@@ -1,6 +1,6 @@
 #slider{
 
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
   padding:2%;
 
 
@@ -37,13 +37,13 @@
 
 #texto h3{
 
-  font-size: 3em;
+  font-size: 1.3vw;
 
 }
 
 #texto p{
 
-  font-size: 2em;
+  font-size: 0.8vw;
 
 
 }
@@ -61,5 +61,12 @@
 .controls{
 
   font-size: 2em;
+
+}
+
+.controls:hover{
+
+  cursor:pointer;
+  color:green;
 
 }
