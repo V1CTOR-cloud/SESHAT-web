@@ -1,134 +1,72 @@
-
 #slider{
-  width:80%;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
+
   box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
+  padding:2%;
+
+
 }
 
 .slide{
-  width:100%;
-  
-  display:none;
-  animation-name:fade;
-  animation-duration:1s;
 
+  display: flex!important; 
+  justify-content: center;
+  align-items: center;
 
-  
 }
 
+#contenedorImagen{ 
 
-
-.slide #contenedorImagen{
-
-  width: 50%;
-  height: 100%;
+  width:50%;
   float: left;
-  padding: 2%;
-  padding-left: 10%; 
-  border: 1px solid green;
-
+  display:flex;
+  justify-content: center;
 
 }
 
-.slide #contenedorImagen #sliderImagen{
+#texto{
 
-  width:80%; 
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  display: block;
-
-}
-.slide #texto{
-
+  width:50%;
+  padding:3% 1% 3% 1%;
   float: right;
-  width: 50%;
-  text-align: center;
-  padding-top: 5%;
-  padding-right: 10%;
-  padding-bottom: 5%;
-  border: 1px solid red;
+  /* display:flex; */
+  justify-content: center;
+  align-items: center;
 
 
 }
-.slide #texto p{
 
-  font-size: 170%;
+#texto h3{
+
+  font-size: 1.3vw;
+
+}
+
+#texto p{
+
+  font-size: 0.8vw;
 
 
 }
-.slide #texto h3{
 
-  font-size: 200%;
+#contenedorImagen #sliderImagen{
 
+  width:50%;
 
 }
-#clear{
 
+#clear {
   clear: both;
-
-}
-
-@keyframes fade{
-  from{opacity:0.5;}
-  to{opacity:1;}
 }
 
 .controls{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  font-size:1.5em;
-  padding:15px 10px;
-  border-radius:5px;
-  
+
+  font-size: 2em;
+
 }
 
 .controls:hover{
-  background:white;
-  transition:0.3s;
-}
 
-.controls:active{
-  color:grey;
-}
+  cursor:pointer;
+  color:green;
 
-#left-arrow{
-  left:10px;
-}
-
-#right-arrow{
-  right:10px;
-}
-
-#dots-con{
-  
-  text-align:center;
-}
-.dot{
-  display:inline-block;
-  background:grey;
-  padding:8px;
-  border-radius:50%;
-  margin:10px 5px;
-}
-
-.active{
-  background:crimson;
-}
-
-@media (max-width:576px){
-  #slider{width:100%;
-  
-  }
-  
-  .controls{
-    font-size:1em;
-  }
-  
-  #dots-con{
-    display:none;
-  }
 }
