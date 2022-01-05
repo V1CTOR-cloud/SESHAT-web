@@ -23,7 +23,7 @@ function loader(){
 }
 
 function fadeOut(){
-  setTimeout(loader,3000);
+  setTimeout(loader,2500);
 }
 
 let swiper2 = new Swiper(".books-slider", {
@@ -73,6 +73,28 @@ let swiper1 = new Swiper(".featured-slider", {
     },
     1024: {
       slidesPerView: 5,
+    },
+  },
+});
+
+let swiper3 = new Swiper(".blogs-slider", {
+  spaceBetween:10,
+  grabCursor: true,
+  loop:true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 9500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
     },
   },
 });
