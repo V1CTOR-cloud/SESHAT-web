@@ -516,7 +516,7 @@ section {
     }
     header .header-1 .search-form {
         position: absolute;
-        top: 115%;
+        top: 140%;
         right: 2rem;
         width: 90%;
         box-shadow: var(--box-shadow);
