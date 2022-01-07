@@ -329,7 +329,7 @@ section {
 }
 
 .newsletter {
-    background: url('/imgfalso/letter-bg.jpg') no-repeat;
+    background: url('../IMG/Tonos\ editorial.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -344,7 +344,7 @@ section {
 
 .newsletter form h3 {
     font-size: 2.2rem;
-    color: #fff;
+    color: var(--black);
     padding-bottom: .7rem;
     font-weight: normal;
 }
