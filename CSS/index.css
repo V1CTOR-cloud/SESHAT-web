@@ -383,6 +383,44 @@ section {
     color: var(--black);
 }
 
+.concurso {
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.concurso .content {
+    flex: 1 1 42rem;
+}
+
+.concurso .content h3 {
+    font-size: 2.5rem;
+    color: var(--green);
+    padding-bottom: .5rem;
+}
+
+.concurso .content h1 {
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.concurso .content p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--ligth-color);
+    line-height: 2;
+}
+
+.concurso .image {
+    flex: 1 1 42rem;
+}
+
+.concurso .image img {
+    width: 100%;
+}
+
 .blogs .blogs-slider .box {
     margin: 2rem 0;
     border: var(--border);
