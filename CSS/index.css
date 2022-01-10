@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 :root {
+    --rojo: #873131;
     --green: #27ae60;
+    --dark-rojo: rgb(112, 39, 39);
     --dark-color: #219150;
     --black: #444;
     --ligth-color: #666;
@@ -343,7 +345,7 @@ section {
 }
 
 .newsletter form h3 {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     color: var(--black);
     padding-bottom: .7rem;
     font-weight: normal;
@@ -414,11 +416,11 @@ section {
 }
 
 .concurso .image {
-    flex: 1 1 42rem;
+    display: flex;
 }
 
 .concurso .image img {
-    width: 100%;
+    height: 30rem;
 }
 
 .blogs .blogs-slider .box {

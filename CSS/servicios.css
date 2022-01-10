@@ -42,25 +42,25 @@ html::-webkit-scrollbar-thumb {
 }
 
 .home {
-    background: url('../IMG/wall.jpg') no-repeat;
+    background: url('../IMG/white-10.jpg') no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     width: 100%;
     height: 40rem;
 }
 
 .home .content {
-    width: 60rem;
+    width: 80rem;
 }
 
 .home .content h3 {
     font-size: 4.5rem;
-    color: var(--black);
+    color: var(--green);
 }
 
 .home .content p {
-    color: var(--ligth-color);
-    font-size: 1.4rem;
+    color: var(--black);
+    font-size: 1.8rem;
     line-height: 2;
     padding: 1rem 0;
 }
@@ -205,4 +205,121 @@ section {
     color: var(--ligth-color);
     padding: 1rem 0;
     line-height: 2;
+}
+
+.edicion {
+    padding: 10rem;
+}
+
+.edicion .content {
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 2%;
+    margin-top: 5rem;
+}
+
+.edicion .content img {
+    height: 25rem;
+}
+
+.edicion .content h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.edicion .content p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--ligth-color);
+    line-height: 2;
+}
+
+.edicion .content ul {
+    padding-left: 2rem;
+}
+
+.edicion .content ul li {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: var(--ligth-color);
+    line-height: 2;
+}
+
+.edicion .content a {
+    color: var(--green);
+}
+
+.foo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.foo img {
+    height: 5rem;
+}
+
+.foo .especial {
+    height: 10rem;
+}
+
+@media(max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+    header .header-1 {
+        padding: 2rem;
+    }
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        scroll-padding-top: 0;
+    }
+    body {
+        padding-bottom: 6rem;
+    }
+    header .header-2 {
+        display: none;
+    }
+    .bottom-navbar {
+        display: block;
+    }
+    header .header-1 {
+        box-shadow: var(--box-shadow);
+        position: relative;
+    }
+    header .header-1 .search-form {
+        position: absolute;
+        top: 140%;
+        right: 2rem;
+        width: 90%;
+        box-shadow: var(--box-shadow);
+    }
+    .home .row .content {
+        text-align: center;
+    }
+    .home .row .content h3 {
+        font-size: 3.5rem;
+    }
+    .newsletter {
+        background-position: left;
+    }
+    .newsletter form {
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+    header .header-1 {
+        padding: 2rem;
+    }
 }
