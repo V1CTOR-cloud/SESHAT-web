@@ -26,6 +26,17 @@ function fadeOut(){
   setTimeout(loader,2500);
 }
 
+let contactForm = document.querySelector('.contact-container');
+document.querySelector('#contacto-btn').onclick = () =>{
+  contactForm.classList.toggle('active');
+}
+
+
+document.querySelector('#close-contact-btn').onclick = () =>{
+  contactForm.classList.remove('active');
+}
+
+
 let swiper2 = new Swiper(".books-slider", {
     loop:true,
     centeredSlides: true,
