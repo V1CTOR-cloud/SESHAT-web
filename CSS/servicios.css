@@ -41,6 +41,22 @@ html::-webkit-scrollbar-thumb {
     background: var(--black);
 }
 
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    border-radius: .5rem;
+    color: #fff;
+    background: var(--green);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: var(--dark-color);
+}
+
 .home {
     background: url('../IMG/white-10.jpg') no-repeat;
     background-size: cover;
