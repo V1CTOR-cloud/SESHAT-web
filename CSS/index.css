@@ -143,6 +143,10 @@ section {
     font-weight: 500;
 }
 
+#contacto-btn{
+    cursor: pointer;
+}
+
 .btn:hover {
     background: var(--dark-color);
 }
@@ -235,6 +239,10 @@ section {
 }
 
 #especial {
+    margin-bottom: 0rem;
+}
+
+#especial2 {
     margin-bottom: 3rem;
 }
 
